@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="RoyZhao-PC" name="com.acme.RaceTests" tests="1" time="0.961" timestamp="2015-05-26T08:12:54">
+  <properties />
+  <testcase classname="com.acme.RaceTests" name="testInMiles" time="0.919" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

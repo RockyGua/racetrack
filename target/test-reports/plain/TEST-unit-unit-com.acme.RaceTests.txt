@@ -1,0 +1,4 @@
+Testsuite: com.acme.RaceTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.961 sec
+
+Testcase: testInMiles took 0.919 sec
