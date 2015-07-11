@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list id="54c1eb23-0c31-4a60-a36e-7deeafdac16e" name="Default" comment="" />
     <list default="true" id="2d6536df-4772-405e-8586-08c9aebefe16" name="delete redundancy idea config files" comment="delete redundancy idea config files">
+      <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\compiler.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\modules.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\RockyWorkspace\web\racetrack\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="racetrack.iws" />
@@ -33,7 +41,7 @@
     <file path="D:/java/Epic/Roy.TaoZhao/UnrealMCP4/Services/Publishing/Epic-Publishing-AdminAPI/src/main/java/com/epicgames/publishing/adminapi/resource/AdminProductSnapshotResourceImpl.java" changelist="54c1eb23-0c31-4a60-a36e-7deeafdac16e" time="1434006597607" ignored="false" />
     <file path="D:/java/Epic/Roy.TaoZhao/UnrealMCP4/Services/Publishing/Epic-Publishing-Core/src/main/java/com/epicgames/publishing/core/manager/SellerProfileHistoryManager.java" changelist="54c1eb23-0c31-4a60-a36e-7deeafdac16e" time="1434006597607" ignored="false" />
     <file path="D:/java/Epic/Roy.TaoZhao/UnrealMCP4/Web/Publishing/PublishingSite/grails-app/conf/BuildConfig.groovy" changelist="54c1eb23-0c31-4a60-a36e-7deeafdac16e" time="1434006603060" ignored="false" />
-    <file path="/Dummy.txt" changelist="2d6536df-4772-405e-8586-08c9aebefe16" time="1436284246846" ignored="false" />
+    <file path="/Dummy.txt" changelist="2d6536df-4772-405e-8586-08c9aebefe16" time="1436283251387" ignored="false" />
     <file path="/a.dummy" changelist="54c1eb23-0c31-4a60-a36e-7deeafdac16e" time="1434013222524" ignored="false" />
     <file path="D:/java/Epic/Roy.TaoZhao/UnrealMCP4/Web/Publishing/PublishingSite/grails-app/views/products/_actionBar.gsp" changelist="54c1eb23-0c31-4a60-a36e-7deeafdac16e" time="1434016889573" ignored="false" />
     <file path="D:/java/Epic/Roy.TaoZhao/UnrealMCP4/Web/Publishing/PublishingSite/grails-app/i18n/messages.properties" changelist="54c1eb23-0c31-4a60-a36e-7deeafdac16e" time="1434014467719" ignored="false" />
@@ -51,6 +59,7 @@
     <file path="$PROJECT_DIR$/../../RockyWorkspace/README.md" changelist="54c1eb23-0c31-4a60-a36e-7deeafdac16e" time="1436203388449" ignored="false" />
     <file path="/README.md" changelist="54c1eb23-0c31-4a60-a36e-7deeafdac16e" time="1436203388449" ignored="false" />
     <file path="/DummyFile.xpath" changelist="54c1eb23-0c31-4a60-a36e-7deeafdac16e" time="1436280909599" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="2d6536df-4772-405e-8586-08c9aebefe16" time="1436283074070" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -578,11 +587,7 @@
       <created>1436282329609</created>
       <updated>1436282329609</updated>
     </task>
-    <task id="LOCAL-00002" summary="delete redundancy idea config files">
-      <created>1436283262047</created>
-      <updated>1436283262047</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -663,7 +668,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete redundancy idea config files" />
+    <option name="LAST_COMMIT_MESSAGE" value="change dataSource" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -678,7 +683,6 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="change dataSource" />
-    <MESSAGE value="delete redundancy idea config files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
