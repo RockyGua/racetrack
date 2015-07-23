@@ -10,6 +10,29 @@ class UserController {
         redirect(action: "list", params: params)
     }
 
+    def login = {
+
+    }
+
+    def logout = {
+        flash.message = "Goodbye ${session.user.login}"
+        session.user = null
+        redirect(action: "login")
+    }
+
+    def authenticate = {
+        def user = User.findByLoginAndPassword(params.login, params.password);
+        if(user){
+            session.user = user;
+            flash.message = "Hello ${user.login}";
+            redirect(controller: "race", action: "list")
+        }else{
+            flash.message = "Sorry, ${params.login}. Please try again."
+            redirect(action: "login")
+        }
+
+    }
+
     def list(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         [userInstanceList: User.list(params), userInstanceTotal: User.count()]
