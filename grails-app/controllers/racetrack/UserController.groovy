@@ -10,6 +10,26 @@ class UserController {
         redirect(action: "list", params: params)
     }
 
+    def beforeInterceptor = [action: this.&auth, except:["login", "logout", "authenticate"]]
+
+    def auth() {
+        if(!session.user){
+            redirect(action: "login")
+            return false
+        }
+
+        if(!session.user.admin) {
+            flash.message = "Tsk tsk-only admin"
+            redirect(controller: "race", action: "list")
+            return false
+        }
+    }
+
+    def debug(){
+        println "DEBUG: ${actionUri} called"
+        println "DEBUG: ${params}"
+    }
+
     def login = {
 
     }
@@ -21,7 +41,7 @@ class UserController {
     }
 
     def authenticate = {
-        def user = User.findByLoginAndPassword(params.login, params.password);
+        def user = User.findByLoginAndPassword(params.login, params.password.encodeAsSHA());
         if(user){
             session.user = user;
             flash.message = "Hello ${user.login}";
