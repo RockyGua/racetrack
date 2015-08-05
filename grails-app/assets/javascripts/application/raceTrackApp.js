@@ -9,12 +9,19 @@ try {
 
 var raceTrackAppModule = angular.module("raceTrackApp", ["ngRoute", "healthCheckControllers"]);
 raceTrackAppModule.constant("module", {});
-raceTrackAppModule.config(function ($routeProvider,$locationProvider) {
+raceTrackAppModule.config(function ($routeProvider, $locationProvider) {
     $routeProvider.
         when("/", {
-            templateUrl: '/template/healthCheck',
+            templateUrl: '/racetrack/template/healthCheck',
+            controller: 'HealthCheckCtrl'
+        }).
+        when("/api", {
+            templateUrl: '/racetrack/template/api/version',
             controller: 'HealthCheckCtrl'
         });
+
+    $locationProvider.html5Mode(true);
+
 });
 //raceTrackAppModule.run(function($rootScope) {
 //        alert("sdadadadadad");

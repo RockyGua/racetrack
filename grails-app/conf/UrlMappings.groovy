@@ -6,9 +6,10 @@ class UrlMappings {
 				// apply constraints here
 			}
 		}
-		"/template/healthCheck"(controller: "user", action: "login")
+//		"/template/healthCheck"(controller: "user", action: "auth")
+		"/template/healthCheck"(view: "/health/health")
 
-		"/api/version"(controller: "user", action: "login")
+		"/template/api/version"(controller: "user", action: "login")
 
 		"/"(view:"/index")
 		"500"(view:'/error')

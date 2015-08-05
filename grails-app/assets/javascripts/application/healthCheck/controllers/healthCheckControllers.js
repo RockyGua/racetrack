@@ -3,9 +3,7 @@
 
 angular.module("healthCheckControllers", []).
     controller("HealthCheckCtrl", ["$scope", "$timeout", "$location",
-        function ($scope, $timeout, $location) {
-            $timeout(function(){
-                alert($scope);
-            },0);
-            alert($scope);
+        function ($scope, $timeout) {
+            $scope.healthCheck = "scope health";
+
         }]);
